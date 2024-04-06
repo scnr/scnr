@@ -8,7 +8,7 @@ module SCNR
 
   class<<self
     def edition
-      ENV['SCNR_EDITION']
+      ENV['SCNR_EDITION'].to_sym
     end
   end
 
